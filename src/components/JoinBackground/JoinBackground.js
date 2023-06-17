@@ -1,5 +1,4 @@
-import Particles, { ISourceOptions } from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import Particles from "react-tsparticles";
 import { loadSeaAnemonePreset } from "tsparticles-preset-sea-anemone";
 
 import React from "react";
