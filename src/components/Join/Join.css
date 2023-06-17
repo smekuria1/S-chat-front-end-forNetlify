@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -13,13 +13,21 @@ body {
   box-sizing: border-box;
 }
 
+#joinBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 .joinOuterContainer {
   display: flex;
   justify-content: center;
   text-align: center;
   height: 100vh;
+  width: 100%;
   align-items: center;
-  background-color: #1a1a1d;
+  position: absolute;
 }
 
 .joinInnerContainer {
